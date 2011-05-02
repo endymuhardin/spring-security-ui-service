@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <success>true</success>
+    <users>
+        <enabled>true</enabled>
+        <group>
+            <id>1</id>
+            <name>Super Duper ah</name>
+            <roles>
+                <authority>Super Admin</authority>
+            </roles>
+            <roles>
+                <authority>Wakil Admin</authority>
+            </roles>
+        </group>
+        <id>1</id>
+        <password>asdf</password>
+        <salt>asdf</salt>
+        <username>jasoet</username>
+    </users>
+    <users>
+        <enabled>true</enabled>
+        <group>
+            <id>2</id>
+            <name>Super Duper ah</name>
+            <roles>
+                <authority>Super Admin</authority>
+            </roles>
+            <roles>
+                <authority>Wakil Admin</authority>
+            </roles>
+        </group>
+        <id>2</id>
+        <password>asdf</password>
+        <salt>asdf</salt>
+        <username>super</username>
+    </users>
+</root>

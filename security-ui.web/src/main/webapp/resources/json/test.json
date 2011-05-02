@@ -1,0 +1,40 @@
+{"success":true,"users":[
+    {
+        "id":1,
+        "password":"asdf",
+        "enabled":true,
+        "username":"jasoet",
+        "salt":"asdf",
+        "group":{
+            "name":"Super Duper ah",
+            "id":1,
+            "roles":[
+                {
+                    "authority":"Super Admin"
+                },
+                {
+                    "authority":"Wakil Admin"
+                }
+            ]
+        }
+    },
+    {
+        "id":2,
+        "password":"asdf",
+        "enabled":true,
+        "username":"super",
+        "salt":"asdf",
+        "group":{
+            "name":"Super Duper ah",
+            "id":2,
+            "roles":[
+                {
+                    "authority":"Super Admin"
+                },
+                {
+                    "authority":"Wakil Admin"
+                }
+            ]
+        }
+    }
+]}
