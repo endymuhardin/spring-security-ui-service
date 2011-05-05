@@ -10,7 +10,7 @@
 
     <artifactId>security-config</artifactId>
     <packaging>jar</packaging>
-    <name>Konfigurasi Project security</name>
+    <name>Konfigurasi Aplikasi</name>
 
 
     <dependencies>

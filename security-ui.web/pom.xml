@@ -10,7 +10,7 @@
 
     <artifactId>security-ui.web</artifactId>
     <packaging>war</packaging>
-    <name>Aplikasi Web (Webapp) Project Viop Billing</name>
+    <name>Aplikasi Web (Webapp)</name>
     <properties>
         <tiles.version>2.2.2</tiles.version>
     </properties>

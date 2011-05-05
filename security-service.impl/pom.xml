@@ -10,7 +10,7 @@
 
 	<artifactId>security-service.impl</artifactId>
 	<packaging>jar</packaging>
-	<name>Service Implementation Project security</name>
+	<name>Implementasi Business Service</name>
 
 	<dependencies>
 		<dependency>
