@@ -10,7 +10,7 @@
 
     <artifactId>security-domain</artifactId>
     <packaging>jar</packaging>
-    <name>Domain Model Project security</name>
+    <name>Domain Model</name>
 
 
     <dependencies>

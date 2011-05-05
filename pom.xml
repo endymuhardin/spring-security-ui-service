@@ -4,7 +4,7 @@
 	<artifactId>security-parent</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>Project Billing Untuk VOIP - Parent</name>
+	<name>Aplikasi Spring Security</name>
 
 	<modules>
         <module>security-config</module>

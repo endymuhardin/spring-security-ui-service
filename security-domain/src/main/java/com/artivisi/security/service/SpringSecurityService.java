@@ -6,7 +6,7 @@ import com.artivisi.security.domain.User;
 
 import java.util.List;
 
-public interface VBillingService {
+public interface SpringSecurityService {
 
     public void save(Role role);
 

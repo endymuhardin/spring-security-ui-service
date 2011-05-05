@@ -10,7 +10,7 @@
 
     <artifactId>security-ui.springmvc</artifactId>
     <packaging>jar</packaging>
-    <name>Aplikasi Web (Java) Project Voip Billing</name>
+    <name>Aplikasi Web (Java)</name>
 
 
     <dependencies>
