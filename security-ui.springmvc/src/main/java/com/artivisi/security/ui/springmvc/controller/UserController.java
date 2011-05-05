@@ -1,6 +1,6 @@
 package com.artivisi.security.ui.springmvc.controller;
 
-import com.artivisi.security.service.VBillingService;
+import com.artivisi.security.service.SpringSecurityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,7 +21,7 @@ import java.util.Map;
 public class UserController {
 
     @Autowired
-    private VBillingService billingService;
+    private SpringSecurityService billingService;
 
     @RequestMapping(value = "/users", method = RequestMethod.GET)
     public

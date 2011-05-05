@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 
 import com.artivisi.security.domain.Group;
 import com.artivisi.security.domain.Role;
-import com.artivisi.security.service.VBillingService;
+import com.artivisi.security.service.SpringSecurityService;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -19,14 +19,14 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class VBillingServiceImplTest {
     private static AbstractApplicationContext applicationContext;
-    private static VBillingService vBillingService;
+    private static SpringSecurityService vBillingService;
 
     @BeforeClass
     public static void initSpring() throws Exception {
         applicationContext = new ClassPathXmlApplicationContext("classpath*:com/artivisi/**/applicationContext.xml");
         applicationContext.registerShutdownHook();
 
-        vBillingService = (VBillingService) applicationContext.getBean("vBillingService");
+        vBillingService = (SpringSecurityService) applicationContext.getBean("vBillingService");
 
 //		clearDatabase();
     }

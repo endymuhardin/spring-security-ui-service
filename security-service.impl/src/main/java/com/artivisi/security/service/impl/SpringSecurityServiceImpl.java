@@ -3,7 +3,7 @@ package com.artivisi.security.service.impl;
 import com.artivisi.security.domain.Group;
 import com.artivisi.security.domain.Role;
 import com.artivisi.security.domain.User;
-import com.artivisi.security.service.VBillingService;
+import com.artivisi.security.service.SpringSecurityService;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,9 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-@Service("vBillingService")
+@Service("springSecurityService")
 @Transactional
-public class VBillingServiceImpl implements VBillingService {
+public class SpringSecurityServiceImpl implements SpringSecurityService {
 
     @Autowired
     private SessionFactory sessionFactory;
