@@ -72,7 +72,6 @@ public class SpringSecurityServiceImplTest {
         springSecurityService.save(role2);
 
         Group group = new Group();
-        group.setId(1l);
         group.setName("Super Duper ah");
         List<Role> roles = new ArrayList<Role>();
         roles.add(role);
